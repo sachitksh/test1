@@ -1,0 +1,24 @@
+{
+  "name": "first",
+  "version": "1.0.0",
+  "description": "A simple Node.js project",
+  "main": "test.js",
+  "scripts": {
+    "start": "node test.js",
+    "test": "node test.js",
+    "db": "node db.js",
+    "dev": "nodemon test.js"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.11.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
